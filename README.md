@@ -6,8 +6,9 @@
 
 ## Features
 
--**Job Description Verification:** The program verifies the job description by identifying suspicious phrases that may signify a scam.
--**Company Verification:** The program verifies the validity of the company that published the position.
+**Job Description Verification:** The program verifies the job description by identifying suspicious phrases that may signify a scam.
+
+**Company Verification:** The program verifies the validity of the company that published the position.
 
 ## Usage
 
