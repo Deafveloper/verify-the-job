@@ -1,9 +1,9 @@
 # Verify the Job
 
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-silver?logo=github)](https://github.com/Deafveloper/verify-the-job)
-[![css](https://img.shields.io/badge/-css-lightblue)]
-[![html](https://img.shields.io/badge/-html-lightpink)]
-[![javascript](https://img.shields.io/badge/-javascript-lightgreen)]
+![css](https://img.shields.io/badge/-css-lightblue)
+![html](https://img.shields.io/badge/-html-lightpink)
+![javascript](https://img.shields.io/badge/-javascript-lightgreen)
 
 `Verify the Job` is a website project intended to help users verify the validity of a job posting by analyzing the company and description attributes of the posting.
 
