@@ -8,7 +8,7 @@ document.getElementById("jobForm").addEventListener("submit", function (event) {
   const companyError = document.getElementById("companyError");
   const descriptionError = document.getElementById("descriptionError");
 
-  //clear previous error messages
+  // Clear previous error messages
   companyError.textContent = "";
   descriptionError.textContent = "";
 
@@ -43,7 +43,21 @@ function verifyJobPosting(jobPosting) {
 }
 
 function verifyCompany(companyName) {
-  const trustedCompanies = ["Google", "Microsoft", "Amazon"];
+  const trustedCompanies = [
+    "Google",
+    "Microsoft",
+    "Amazon",
+    "Apple",
+    "Facebook",
+    "IBM",
+    "Tesla",
+    "Coca-Cola",
+    "Procter & Gamble",
+    "Samsung",
+    "Intel",
+    "Adobe",
+    // Add more trusted companies as needed
+  ];
   return trustedCompanies.includes(companyName);
 }
 
@@ -52,6 +66,7 @@ function verifyJobDescription(description) {
     "work from home",
     "quick money",
     "no experience required",
+    // Add more suspicious phrases as needed
   ];
   return suspiciousPhrases.some((phrase) => description.includes(phrase));
 }
