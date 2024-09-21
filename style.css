@@ -59,3 +59,17 @@ span {
     color: red;
     font-size: 12px;
 }
+
+.action-btns {
+    display: flex;
+    flex-direction: column;
+}
+
+.action-btns button {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+button[type=reset] {
+    background: #666666;
+}
