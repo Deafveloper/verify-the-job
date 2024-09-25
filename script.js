@@ -52,6 +52,11 @@ function verifyJobDescription(description) {
     "work from home",
     "quick money",
     "no experience required",
+    "high income", 
+    "easy job", 
+    "guaranteed income", 
+    "company confidential"
+    
   ];
   return suspiciousPhrases.some((phrase) => description.includes(phrase));
 }
