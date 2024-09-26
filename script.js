@@ -8,7 +8,7 @@ document.getElementById("jobForm").addEventListener("submit", function (event) {
   const companyError = document.getElementById("companyError");
   const descriptionError = document.getElementById("descriptionError");
 
-  //clear previous error messages
+  // Clear previous error messages
   companyError.textContent = "";
   descriptionError.textContent = "";
 
@@ -55,3 +55,14 @@ function verifyJobDescription(description) {
   ];
   return suspiciousPhrases.some((phrase) => description.includes(phrase));
 }
+
+// Clear button functionality
+document.getElementById("clearButton").addEventListener("click", function () {
+  document.getElementById("jobForm").reset();
+
+  // Clear error messages
+  document.getElementById("companyError").textContent = "";
+  document.getElementById("descriptionError").textContent = "";
+  // Clear previous result message
+  document.getElementById("result").textContent = "";
+});
