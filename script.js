@@ -1,4 +1,4 @@
-document.getElementById("jobForm").addEventListener("submit", function (event) {
+document.getElementById("submitting").addEventListener("click", function (event) {
   event.preventDefault();
 
   const company = document.getElementById("company").value;
@@ -54,4 +54,12 @@ function verifyJobDescription(description) {
     "no experience required",
   ];
   return suspiciousPhrases.some((phrase) => description.includes(phrase));
+}
+
+function clearInput() {
+  document.getElementById("company").value = "";
+  document.getElementById("description").value = "";
+  document.getElementById("result").textContent = "";
+  companyError.textContent = "";
+  descriptionError.textContent = "";
 }
