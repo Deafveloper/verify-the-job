@@ -43,7 +43,7 @@ function verifyJobPosting(jobPosting) {
 }
 
 function verifyCompany(companyName) {
-  const trustedCompanies = ["Google", "Microsoft", "Amazon"];
+  const trustedCompanies = ["Google", "Microsoft", "Amazon", "Samsung", "Apple", "Duolingo", "Lenovo", "Meta"];
   return trustedCompanies.includes(companyName);
 }
 
