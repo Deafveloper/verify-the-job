@@ -11,7 +11,7 @@
       <h1>Job Posting Verifier</h1>
       <form id="jobForm" novalidate>
         <label for="company">Company Name:</label>
-        <input type="text" id="company" name="company" required>
+        <input type="text" id="company" name="company" placeholder="Enter the Company Name" required>
         <span id="companyError"></span>
         <br /><br />
         <label for="description">Job Description:</label>
@@ -19,6 +19,7 @@
           id="description"
           name="description"
           rows="4"
+          placeholder="Describe the Job Posting"
           required
         ></textarea>
         <span id="descriptionError"></span>
